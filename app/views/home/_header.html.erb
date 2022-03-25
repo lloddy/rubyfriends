@@ -22,7 +22,7 @@
           <%= link_to 'Sign In', new_user_session_path, class:"nav-link" %>
         </li>
         <li class="nav-item">
-          <%= button_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link" %>
+          <%= button_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link", style: "background-color:rgba(0,0,0,0); border:none"%>
         </li>
         <li class="nav-item">
           <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link" %>
